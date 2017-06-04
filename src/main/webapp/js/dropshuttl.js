@@ -9,7 +9,7 @@
  regexp : true, sloppy : true, vars : true,
  white : true
  */
-/* global $, dropshuttl */
+/*global $, dropshuttl */
 
 var dropshuttl = (function (){
     var initModule = function($container){

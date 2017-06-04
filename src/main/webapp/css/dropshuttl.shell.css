@@ -62,7 +62,14 @@
                 height     : 25px;
                 background : red;
                 z-index    : 1;
+                cursor	   : pointer;
+                border-radius: 5px 0 0 0;
             }
+            
+            .dropshuttl-shell-chat:hover{
+            	background: #408080;
+            }
+            
             .dropshuttl-shell-modal {
                 margin-top    : -200px;
                 margin-left   : -200px;
