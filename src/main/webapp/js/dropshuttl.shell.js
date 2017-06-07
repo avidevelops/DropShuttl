@@ -255,10 +255,10 @@ dropshuttl.shell = (function(){
 			schema_map : configMap.anchor_schema_map
 		});
 		
-		if ("onhashchange" in window) {
-            console.log('SUPPORTED');
-        }
-		
+		// configure and initialize feature modules
+		dropshuttl.chat.configModule({});
+		dropshuttl.chat.initModule(jQueryMap.$chat);
+
 		$(window)
 			.bind ('hashchange', onHashChange)
 			.trigger ('hashchange');
